@@ -32,7 +32,54 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 500px;
+  min-height: 100px;
+  background: #161a2b;
+  text-align: center;
+  margin: 10px auto;
+  border-radius: 12px;
+  padding: 50px;
+}
+
+
+
+.input {
+  padding: 15px 33px 15px 17px;
+  border-radius: 10px;
+  border: 1px solid rgba(20, 159, 255, 1);
+  outline: none;
+  width: 321px;
+  background: transparent;
+  color: black
+}
+
+.input::placeholder {
+  color: black
+}
+
+.button {
+  margin-left: 5px;
+  padding: 17px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background: rgba(17, 122, 255, 1);
+  color: #fff;
 }
